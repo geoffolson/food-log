@@ -1,0 +1,22 @@
+{
+  "name": "food-log",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:web-ui": "npm run start --workspace=web-ui",
+    "start:api": "npm run start --workspace=api",
+    "build:web-ui": "npm run build --workspace=web-ui",
+    "build:api": "npm run build --workspace=api",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": [],
+  "author": "Geoffrey Olson Jr.",
+  "license": "MIT",
+  "workspaces": [
+    "web-ui",
+    "api",
+    "common"
+  ],
+  "dependencies": {}
+}
