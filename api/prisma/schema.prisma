@@ -19,3 +19,11 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model Food {
+  name          String @id
+  calories      Int
+  protein       Int
+  fat           Int
+  carbohydrates Int
+}
